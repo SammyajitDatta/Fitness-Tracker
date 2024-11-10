@@ -1,0 +1,346 @@
+/* Fully stylistic, very messy file, ignore it.*/
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Nav1 li {
+  display: inline;
+}
+
+.Nav1{
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.Main-Header1{
+  background-image: url("./Images/FitnessBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ulStart{
+  display: flex;
+  flex-direction:  row;
+  width: 90vw; 
+  justify-content: space-between;
+}
+
+.FitnessLeague{
+  margin: 1rem 0 3rem 0;
+}
+
+.Nav1 li:hover{
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.f1{
+  background-color: rgba(125, 20, 200, 0.2);
+  border: 5px solid rgba(15, 212, 212, 0.6);
+  border-radius: 10%;
+  margin-top: 30px;
+  margin-left: 120px;
+  padding-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-bottom: 100px;
+  width: 35vw;
+  max-height: 900px;
+}
+
+.f2{
+  background-color: rgba(125, 20, 200, 0.2);
+  border: 5px solid rgba(15, 212, 212, 0.6);
+  border-radius: 10%;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+  max-height: 900px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.f3{
+  display: flex;
+  flex-direction: row;
+}
+
+.i1{
+  width: 99%;
+  margin-bottom: 15px;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px; 
+  border: 1px solid gray; 
+  transition: border-color 0.3s ease; 
+}
+
+.b1{
+  background-color: #04AA6D; /* Green */
+  border-radius: 25px;
+  border: 5px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 50%;
+  margin: 1vw 0 0 6.5vw;
+
+}
+
+.b1:hover{
+  background-color: rgba(255,255,0, 0.8);
+}
+
+.linkColors{
+  color: white;
+}
+
+.linkColors:visited{
+  color: white;
+}
+
+
+.linkColors:active{
+  color: white;
+}
+
+.linkColors:hover{
+  color: rgba(233, 233,233, 0.6);
+}
+
+.overall{
+  display: flex;
+  flex-direction: column; 
+  flex-basis: 44%;
+}
+
+.ChestTriceps{
+  display: flex;
+  border: 10px solid black;
+  border-radius:  15%;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  padding: 0 30px 40px 30px;
+  margin: 30px;
+}
+
+.BackBiceps{
+  border-radius:  15%;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+  padding: 0 30px 40px 30px;
+  margin: 30px;
+}
+
+.LegsShoulders{
+  border-radius:  15%;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  padding: 0 30px 40px 30px;
+  margin: 30px;
+}
+
+.overall input{
+  margin: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+
+}
+
+.outterFB{
+  display:flex;
+  flex-direction: row;
+  width: 95vw;
+}
+
+.InnerFB{
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  margin: 1vw 5vw 0vw 3vw;
+}
+
+.videoList button{
+  width: 20vw;
+}
+
+.FB2{
+
+  display: flex;
+  flex-direction:  column;
+  text-align: center;
+  height: 70vh;
+}
+
+.FB2 input{
+  height: 3vh;
+  font-size: 70%;
+  padding: 15px;
+  border: 15px solid black;
+}
+
+.FB2 button{
+  width: 90%;
+  height: 2.5vh;
+  font-size: 50%;
+  font-weight: bold;
+}
+
+.FB2 button.active{
+  background-color: pink;
+}
+
+.FB2 button:hover{
+  background-color: #04AA6D;
+}
+
+.VideoSelect{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.V2{
+  height: 65vh;
+}
+
+.outtermost{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+}
+
+.LeftFB, .RightFB{
+  flex-basis: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LeftFB ul{
+  width: 95%;
+}
+
+.LeftFB input{
+  width: 80%;
+  height: 100px;
+  border-radius: 10%;
+  border: 10px solid black;
+  font-size: 40px;
+}
+
+.LeftFB button{
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.LeftFB button.active{
+  background-color: pink;
+}
+
+.LeftFB button:hover{
+  background-color: yellow;
+}
+
+.Images{
+  object-fit: contain;
+  height: 40%;
+  width: 80%;
+}
+
+.FF{
+  display:flex;
+  flex-direction: column;
+  width: 99vw;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.FF button{
+  margin-left: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+.WorkoutBoxes{
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  width: 75px;
+  padding-left:  20px;
+}
+
+.WorkoutCheck{
+  height: 25px;
+  width: 25px;
+}
+
+.A{
+  width: 300px;
+  padding-left: 120px;
+}
